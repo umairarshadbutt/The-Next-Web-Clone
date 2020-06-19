@@ -1,0 +1,40 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.black-nav {
+  background: #131313;
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  
+}
+
+.nav-item {
+  flex: 1;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.nav-item li {
+  padding: 0 10px;
+}
+
+.black-nav .first-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.black-nav .second-menu {
+  display: flex;
+  justify-content: flex-end;
+}
