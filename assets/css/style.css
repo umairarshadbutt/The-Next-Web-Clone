@@ -5,30 +5,32 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+body {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   line-height: 1.5;
   font-size: 14px;
 }
+
 .navbar {
-  display: block;
   font-weight: 500;
   line-height: 32px;
   max-height: 32px;
   position: relative;
   z-index: 2;
   display: flex;
-  
 }
-.black-nav{
-   background: #131313;
-  color: #ffffff;
+
+.black-nav {
+  background: #131313;
+  color: #fff;
 }
-.half-white-navbar{
+
+.half-white-navbar {
   background-color: #eae2e2;
   font-size: 1.5em;
   color: #a9a9a9;
 }
+
 .nav-item {
   flex: 1;
   list-style: none;
@@ -48,15 +50,18 @@ body{
   display: flex;
   justify-content: flex-end;
 }
-.second-menu span{
-  font-size: .7em;
+
+.second-menu span {
+  font-size: 0.7em;
 }
-.tnw-conference{
+
+.tnw-conference {
   background-color: #fadd32;
-    cursor: pointer;
-    line-height: 2.1em;
-    height: 31px;
+  cursor: pointer;
+  line-height: 2.1em;
+  height: 31px;
 }
-.time-navbar{
+
+.time-navbar {
   width: 125px;
 }
