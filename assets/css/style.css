@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+img {max-width: 100%; display: block;}
+section{
+  margin: 0 2.5%;
+}
 body {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   line-height: 1.5;
@@ -64,4 +68,81 @@ body {
 
 .time-navbar {
   width: 125px;
+}
+
+
+
+
+
+
+
+
+
+.listing {
+  list-style: none;
+  margin: 2em;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(272px, 1fr));
+}
+.listing li {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.listing .body h4{
+  padding: 1% 0 1% 0;
+  cursor: pointer;
+}
+
+.listing .body p{
+  color: #555;
+  padding: 0 0 3px 3px;
+  font-size: 0.8em;
+}
+.listing .body p a{
+  color: #555;
+  text-decoration: none;
+}
+.listing .body p a:hover{
+  font-size: 1.01em;
+}
+.listing .body h4:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.latest-heading{
+  color: red;
+  margin-left: 2%;
+  font-size: 2em;
+  margin-top: 5%;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+  .listing {
+    grid-template-columns: none;
+  }
+  .listing li {
+    position: relative;
+  }
+  .listing li img{
+    max-width: 22%;
+  }
+  .listing .body{
+    position: absolute;
+    left: 25%;
+    top: -6px;
+  }
+  .listing .body h4{
+    line-height: 1em;
+  }
 }
