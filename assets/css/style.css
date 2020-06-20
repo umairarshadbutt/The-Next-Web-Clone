@@ -123,6 +123,40 @@ body {
 
 
 
+.news-section{
+  grid-template-columns: repeat(auto-fill,minmax(325px, 1fr));
+}
+.news-section li{
+  position: relative;
+}
+
+.news-section-heading{
+  position: absolute;
+    top: 182px;
+    color: white;
+    font-size: 1.2em;
+    left: 10px;
+}
+.news-list li{
+  border-bottom: 1px solid #eee;
+  padding: 6px 0px 6px 0px;
+  position: relative;
+}
+.red-point{
+  color: #f42;
+  left: 0;
+  position: absolute;
+  top: 8px;
+}
+
+.text{
+  color: #555;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
+  margin-left: 14px;
+}
 
 
 
@@ -134,7 +168,7 @@ body {
   .listing li {
     position: relative;
   }
-  .listing li img{
+  .listing .latest-news img{
     max-width: 22%;
   }
   .listing .body{
