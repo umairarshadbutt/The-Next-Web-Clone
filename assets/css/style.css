@@ -119,10 +119,6 @@ body {
   margin-top: 5%;
   font-weight: 700;
 }
-
-
-
-
 .news-section{
   grid-template-columns: repeat(auto-fill,minmax(325px, 1fr));
 }
@@ -135,7 +131,12 @@ body {
     top: 182px;
     color: white;
     font-size: 1.2em;
-    left: 10px;
+    left: 0;
+    background: linear-gradient(rgba(14, 13, 13, 0.6), rgba(0, 0, 0, 1));
+}
+.news-section-heading a{
+  color: white;
+  text-decoration: none;
 }
 .news-list li{
   border-bottom: 1px solid #eee;
@@ -156,6 +157,26 @@ body {
   line-height: 1.5;
   font-family: Helvetica, sans-serif;
   margin-left: 14px;
+}
+
+.latest-news-heading{
+  display: flex; background-color: #fcf1f0;height: 88px; padding: 11px 4px 5px 6px;
+  color: red
+}
+
+.latest-news-heading .title{
+  width: 70%;    padding-right: inherit;color: red;
+}
+.latest-news-heading .title a{
+  color: red;
+  text-decoration: none;
+}
+.lattest-news-sub-image{
+  width: 30%;
+  margin-top: 11px;
+}
+.latest-news-heading img{
+  width: 100%;
 }
 
 
