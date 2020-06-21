@@ -91,12 +91,6 @@ body {
   cursor: pointer;
 }
 
-.listing .body p {
-  color: #555;
-  padding: 0 0 3px 3px;
-  font-size: 0.8em;
-}
-
 .listing .body h4:hover {
   color: red;
   text-decoration: underline;
@@ -228,9 +222,42 @@ body {
   background-image: linear-gradient(rgba(165, 152, 152, 0.6), rgba(0, 0, 0, 1)), url(../images/bg3.png);
 }
 
+.price-percentage {
+  position: relative;
+}
+
+.price-overlay {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0) 50%, rgba(255, 204, 0, 1) 51%);
+  top: 0;
+  right: 0;
+}
+
+.price-overlay p {
+  position: relative;
+  top: 30px;
+  transform: rotate(45deg);
+  left: 16px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.listing .body p {
+  color: #555;
+  padding: 0 0 3px 3px;
+  font-size: 0.8em;
+}
+
 @media (max-width: 767px) {
   .listing {
     grid-template-columns: none;
+  }
+
+  .price-percentage .price-overlay {
+    display: none;
   }
 
   .listing li {
