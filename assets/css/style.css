@@ -250,7 +250,30 @@ body {
   padding: 0 0 3px 3px;
   font-size: 0.8em;
 }
+footer{
+  background-color: #131313;
+  text-align: center;
+}
+footer i.fa {
+  color: white;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #333;
+  padding: 0.65em 0.8em;
+  border: 2px solid #333;
+}
+footer i.fa:hover{
+  background-color: #131313;
+}
 
+.fixed{
+  position: fixed;
+  bottom: 3px;
+  right: -3px;
+  width: 90px;
+  cursor: pointer;
+}
 @media (max-width: 767px) {
   .listing {
     grid-template-columns: none;
