@@ -1,19 +1,22 @@
-# Intuit Clone.
+# The Next Web Clone.
 
-> This is a clone of the Intuit registration page.
+> This is a clone of the The Next Web home page.
 
-![screenshot](./images/intuit.png)
+![screenshot](./images/thenextclone.png)
 
-This project is a replica of the Intuit registration page. It has a form that allows users to enter their respective credentials and submit them to the website backend.
+This project is a replica of the The next clone home page. It has a different news sections, which includes images, links and text content.
 
 ## Built With
 
 - HTML5,
+- GRID
+- FLEX
+- Media Query
 - CSS3.
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/Intuit-clone/develop/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/the-next-web-clone/develop/index.html)
 
 
 ## Getting Started
@@ -27,15 +30,9 @@ To run the project smoothly, you must have the following installed on your machi
 - A web browser.
 
 ### Setup
-You need to clone the project by running `git clone https://github.com/berhanu-tarekegn/Intuit-clone.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
+You need to clone the project by running `git clone https://github.com/berhanu-tarekegn/the-next-web-clone.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
 
 ## Authors
-
-👤 **Kelyn Paul Njeri**
-
-- Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
-- Twitter: [@twitterhandle](https://twitter.com/KelynNjeri)
-- Linkedin: [Kelyn Paul](https://linkedin.com/kelyn-paul)
 
 👤 **Berhanu Tarekegn**
 
@@ -56,6 +53,7 @@ Give a ⭐️ if you like this project!
 
 - W3Schools
 - CSS Tricks
+- Microverse
 
 ## 📝 License
 
