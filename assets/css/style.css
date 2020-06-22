@@ -243,7 +243,6 @@ body {
 }
 
 footer {
-  background-color: #131313;
   text-align: center;
 }
 
@@ -259,8 +258,30 @@ footer i.fa {
 
 footer i.fa:hover {
   background-color: #131313;
+  cursor: pointer;
 }
 
+footer .icon{
+  height: 187px;
+  background-color: #131313;
+}
+footer .second-section{
+  padding-top: 34px;
+  height: 87px;
+  color: white;
+  background-color: #000;
+}
+footer .icon .para{
+  padding-top: 59px;
+}
+footer .icon .para1{
+  padding-top: 15px;
+}
+.footer-list{
+  text-decoration: none;
+  color: white;
+  margin: 2px 5px 2px 5px;
+}
 .fixed {
   position: fixed;
   bottom: 3px;
