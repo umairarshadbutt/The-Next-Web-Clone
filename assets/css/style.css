@@ -185,6 +185,180 @@ body {
   width: 100%;
 }
 
+.logo {
+  display: none;
+}
+
+.navbar .first-menu li i {
+  display: none;
+}
+
+.search-menu {
+  display: none;
+}
+
+.search-menu li {
+  display: none;
+}
+
+/*HEADER START: Screen size between 768 and 1024 */
+
+@media (max-width: 767px) {
+
+  .logo {
+    display: block;
+    width: 80px;
+    height: 52px;
+    float: left;
+  }
+
+  .half-white-navbar, .black-nav {
+    display: none;
+  }
+
+  .search-menu {
+    display: flex;
+    height: 48px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .search-menu i {
+    margin-top: 4px;
+    padding-left: 20px;
+    width: 48px;
+    height: 48px;
+    padding-top: 5%;
+    border-left: 1px solid lightgray;
+    color: gray;
+  }
+
+  .tnw-conference {
+    clear: both;
+    height: 52px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .logo {
+    display: block;
+    width: 100px;
+    height: 52px;
+    float: left;
+  }
+
+  .half-white-navbar {
+    display: block;
+    height: 52px;
+    margin-left: 80px;
+  }
+
+  div.black-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+  }
+
+  .tnw-conference {
+    clear: both;
+    height: 52px;
+  }
+
+  .logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    float: left;
+  }
+
+  .navbar .half-white-navbar {
+    margin-top: 32px;
+  }
+
+  .half-white-navbar .first-menu {
+    background-color: #fff;
+    height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .half-white-navbar .first-menu:last-child {
+    flex: 10;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .half-white-navbar .second-menu {
+    display: none;
+  }
+
+
+  .half-white-navbar .first-menu .search-item {
+    position: fixed;
+    right: 0;
+  }
+
+  .half-white-navbar .first-menu .search-item i {
+    flex: 10;
+    display: block;
+    height: 48px;
+    padding: 15px 20px 20px 20px;
+    color: gainsboro;
+    border-left: 1px solid gainsboro;
+    margin: 2px 0;
+  }
+  
+
+}
+
+@media (min-width: 1024px) and (max-width: 1113px) {
+
+  .logo {
+    display: none;
+  }
+
+  .half-white-navbar {
+    background-color: #fff;
+    height: 48px;
+    padding-top: 14px;
+    margin-bottom: 30px;
+  }
+
+  .half-white-navbar .first-menu:last-child {
+    flex: 10;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .half-white-navbar .second-menu {
+    display: none;
+  }
+
+
+  .half-white-navbar .first-menu .search-item {
+    position: fixed;
+    right: 0;
+    padding: 0px;
+  }
+
+  .half-white-navbar .first-menu .search-item i {
+    flex: 10;
+    display: block;
+    height: 48px;
+    padding: 15px 20px 20px 20px;
+    color: gainsboro;
+    border-left: 1px solid gainsboro;
+  }
+
+  .tnw-conference {
+    margin-top: 20px;
+  }
+
+}
+
+/* HEADER END: between 768 and 1024 */
+
 .overlay {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
