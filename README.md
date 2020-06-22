@@ -2,7 +2,7 @@
 
 > This is a clone of the The Next Web home page.
 
-![screenshot](./images/thenextclone.png)
+![screenshot](assets/images/thenextweb.png)
 
 This project is a replica of the The next clone home page. It has a different news sections, which includes images, links and text content.
 
