@@ -345,6 +345,14 @@ footer .icon .para1{
   left: 10px;
 }
 
+.img-heading{
+  position: absolute;
+    top: 70%;
+    color: white;
+}
+.section{
+  color: white;
+}
 @media (max-width: 767px) {
   .listing {
     grid-template-columns: none;
@@ -375,9 +383,11 @@ footer .icon .para1{
   .section {
     grid-column: span 3;
     height: 217px;
+    color: white;
   }
 
   .first {
+    height: 158px;
     grid-column: 1/ 4;
   }
 
