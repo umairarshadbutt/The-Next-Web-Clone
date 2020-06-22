@@ -16,7 +16,7 @@ This project is a replica of the The next clone home page. It has a different ne
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/the-next-web-clone/develop/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/the-next-web-clone/048c8fd1c41e7b2200087d0cbe3c3ed7cb80a903/index.html)
 
 
 ## Getting Started
@@ -33,6 +33,12 @@ To run the project smoothly, you must have the following installed on your machi
 You need to clone the project by running `git clone https://github.com/berhanu-tarekegn/the-next-web-clone.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
 
 ## Authors
+
+👤 **Umair Arshad**
+
+- Github: [@umairarshadbutt](https://github.com/umairarshadbutt)
+- Twitter: [@its_UmairArshad](https://twitter.com/its_UmairArshad)
+- Linkedin: [umair-arshad-butt](https://www.linkedin.com/in/umair-arshad-butt/)
 
 👤 **Berhanu Tarekegn**
 
