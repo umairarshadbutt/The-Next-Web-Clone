@@ -167,15 +167,6 @@ body {
   text-decoration: none;
 }
 
-.listing .body p a {
-  color: #555;
-  text-decoration: none;
-}
-
-.listing .body p a:hover {
-  font-size: 1.01em;
-}
-
 .lattest-news-sub-image {
   width: 30%;
   margin-top: 11px;
@@ -421,13 +412,14 @@ body {
 
 .listing .body p {
   color: #555;
-  padding: 0 0 3px 3px;
+  padding: 5px 0 3px 3px;
   font-size: 0.8em;
 }
-footer{
-  background-color: #131313;
+
+footer {
   text-align: center;
 }
+
 footer i.fa {
   color: white;
   margin: 10px;
@@ -437,16 +429,103 @@ footer i.fa {
   padding: 0.65em 0.8em;
   border: 2px solid #333;
 }
-footer i.fa:hover{
+
+footer i.fa:hover {
   background-color: #131313;
+  cursor: pointer;
 }
 
-.fixed{
+footer .icon{
+  height: 187px;
+  background-color: #131313;
+}
+footer .second-section{
+  padding-top: 34px;
+  height: 87px;
+  color: white;
+  background-color: #000;
+}
+footer .icon .para{
+  padding-top: 59px;
+}
+footer .icon .para1{
+  padding-top: 15px;
+}
+.footer-list{
+  text-decoration: none;
+  color: white;
+  margin: 2px 5px 2px 5px;
+}
+.fixed {
   position: fixed;
   bottom: 3px;
   right: -3px;
   width: 90px;
   cursor: pointer;
+}
+
+.red {
+  height: 35px;
+  line-height: 37px;
+  font-size: 1.5em;
+  background-color: #f42;
+}
+
+.fund {
+  position: relative;
+}
+
+.funding-second-color {
+  height: 58px;
+  background-color: #fbe8e5;
+  line-height: 22px;
+}
+
+.listing .body p a {
+  color: #555;
+  text-decoration: none;
+}
+
+.listing .body p a:hover {
+  font-size: 1.01em;
+}
+
+.funding-second-color h4 {
+  margin-left: 90px;
+  margin-top: 3px;
+}
+
+.funding-second-color p {
+  margin-left: 90px;
+}
+
+.red p {
+  margin-left: 90px;
+}
+
+.fund-tags {
+  width: 16px;
+  margin-left: 10px;
+}
+
+.fund-line {
+  border-top: 1px solid #c7a7a7;
+}
+
+.fund-image {
+  position: absolute;
+  width: 70px;
+  top: 10px;
+  left: 10px;
+}
+
+.img-heading{
+  position: absolute;
+    top: 70%;
+    color: white;
+}
+.section{
+  color: white;
 }
 @media (max-width: 767px) {
   .listing {
@@ -478,9 +557,11 @@ footer i.fa:hover{
   .section {
     grid-column: span 3;
     height: 217px;
+    color: white;
   }
 
   .first {
+    height: 158px;
     grid-column: 1/ 4;
   }
 
