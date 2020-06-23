@@ -209,7 +209,8 @@ body {
     height: 52px;
     float: left;
   }
-  .logo-img{
+
+  .logo-img {
     display: none;
   }
 
@@ -241,18 +242,17 @@ body {
   }
 }
 
-@media (max-width: 1107px)
-
-{
-  .first-heading{
+@media (max-width: 1107px) {
+  .first-heading {
     margin-top: 40%;
-  
-    }
+  }
 }
+
 @media (min-width: 768px) and (max-width: 1023px) {
-  .logo-img{
+  .logo-img {
     display: none;
   }
+
   .logo {
     display: block;
     width: 100px;
@@ -371,7 +371,7 @@ body {
   position: relative;
 }
 
-.first-heading{
+.first-heading {
   color: white;
   position: absolute;
   margin-top: 35%;
@@ -602,8 +602,7 @@ footer .icon .para1 {
     display: block;
   }
 
-  .first-heading{
-  margin-top: 10%;
-
+  .first-heading {
+    margin-top: 10%;
   }
 }
