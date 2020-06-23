@@ -90,7 +90,7 @@ body {
   margin: 2em;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(23%, 1fr));
 }
 
 .listing li {
@@ -181,6 +181,11 @@ body {
 
 .logo {
   display: none;
+}
+
+.logo-img {
+  width: 243px;
+  margin-left: 26px;
 }
 
 .navbar .first-menu li i {
