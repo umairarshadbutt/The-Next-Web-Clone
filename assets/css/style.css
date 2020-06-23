@@ -55,6 +55,10 @@ body {
   padding: 0 10px;
 }
 
+li {
+  cursor: pointer;
+}
+
 .nav-item li {
   padding: 0 10px;
 }
@@ -512,7 +516,7 @@ footer .icon .para1 {
 
 .listing .body p {
   color: #555;
-  padding: 5px 0 3px 3px;
+  padding: 0 0 3px 3px;
   font-size: 0.8em;
 }
 
