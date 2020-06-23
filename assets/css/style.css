@@ -361,6 +361,14 @@ body {
 .overlay .first {
   grid-column: 1 / span 2;
   grid-row: span 2;
+  position: relative;
+}
+
+.first-heading{
+  color: white;
+  position: absolute;
+  margin-top: 47%;
+  margin-left: 10px;
 }
 
 .bg1 {
@@ -585,5 +593,10 @@ footer .icon .para1 {
 
   .overlay {
     display: block;
+  }
+
+  .first-heading{
+  margin-top: 10%;
+
   }
 }
