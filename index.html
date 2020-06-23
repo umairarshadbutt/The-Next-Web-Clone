@@ -1,69 +1,780 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Next Web</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <script rel="javascript" src="./assets/js/script.js"></script>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Next Web</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script rel="javascript" src="./assets/js/script.js"></script>
+        <script src="https://kit.fontawesome.com/f977934f89.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="menu-nav">
+                <img class="logo" src="./assets/images/logo.png" alt="logo">
+                <div class="search-menu">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="navbar black-nav">
+                    <ul class="nav-item first-menu">
+                        <li>  News</li>
+                        <li> Events</li>
+                        <li> Business</li>
+                        <li> AMAs</li>
+                        <li> Spaces</li>
+                        <li> Terms & Conditions</li>
+                    </ul>
 
-  <header>
+                    <ul class="nav-item second-menu">
+                        <li> About</li>
+                        <li> Team</li>
+                        <li> Advertise</li>
+                        <li> Jobs</li>
+                        <li> Content</li>
+                    </ul>
+                </div>
+                <div class="navbar half-white-navbar">
+                    <ul class="nav-item first-menu">
+                        
+                        <li>LATEST</li>
+                        <li>HARD FORK </li>
+                        <li>PLUGGED </li>
+                        <li>T20 </li>
+                        <li class="search-item"><i class="fas fa-search"></i></li>                      
+                    </ul>
 
-    <nav>
-      <div class="navbar black-nav">
-        <ul class="nav-item first-menu">
+                    <ul class="nav-item second-menu">
+                        <li><i class="fa fa-search" aria-hidden="true"></i></li>
+                        <li><span>ECHOSYSTEM CONFERENCE STARTS IN</span></li>
+                        <li id="demo" class="time-navbar"></li>
+                        <li><button type="button">REGISTER</button></li>
+                    </ul>
 
-          <li>News</li>
-          <li>Item</li>
-          <li>Item</li>
-          <li>Item</li>
-          <li>Item</li>
-          <li>Item</li>
+                    
+                </div>
+                <div class="tnw-conference">
+                    <p>
+                        <a> Don't fall behind our tech future - Join TNW Couch Conferences ➔ </a>
+                    </p>
+                </div>
+            </nav>
 
-        </ul>
+            <div class="overlay">
+                <article class="first bg1">
+                    <h2> &nbsp;</h2>
+                    <h2 class="first-heading">
+                        3 tech stocks that surged in price this year
+                    </h2>
+                    <img class="logo-img" src="./assets/images/tnw.svg" alt="logo">
+                </article>
+                <article class="section bg2">
+                    <h2 >
+                        3 tech stocks that surged in price this year — but didn’t get much attention
+                    </h2>
+                </article>
+                <article class="section bg3">
+                    <h2 >
+                        3 tech stocks that surged in price this year — but didn’t get much attention
+                    </h2>
+                </article>
+            </div>
+        </header>
 
-        <ul class="nav-item second-menu">
+        <section>
+            <h2 class="latest-heading">
+                Latest News >
+            </h2>
+            <ul class="listing">
+                <li class="latest-news">
+                    <img src="./assets/images/image.jpeg" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                </li>
+                <li class="latest-news">
+                    <img src="./assets/images/image6.png" alt="image1" />
+                    <div class="body">
+                        <h4>The Nuraphone ‘hearing-tuned’ headphones are a lockdown</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                </li>
+                <li class="latest-news">
+                    <img src="./assets/images/image1.png" alt="image1" />
+                    <div class="body">
+                        <h4>Here's how developers think Apple will handle Mac's switch from Intel to ARM</h4>
+                        <p><a href="#">Tristan Greene15</a> . 4 hours ago</p>
+                    </div>
+                </li>
+                <li class="latest-news">
+                    <img src="./assets/images/image2.png" alt="image1" />
+                    <div class="body">
+                        <h4>Apple wasn't told UK was developing a 'hybrid' COVID-19 app with its tech</h4>
+                        <p><a href="#">Tristan Greene15</a> . 4 hours ago</p>
+                    </div>
+                </li>
+                <li class="latest-news">
+                    <img src="./assets/images/image3.jpeg" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                </li>
+                <li class="latest-news">
+                    <img src="./assets/images/image4.jpg" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                </li>
+                <li class="latest-news">
+                    <img src="./assets/images/image5.jpg" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                </li>
+                <li class="latest-news">
+                    <img src="./assets/images/image7.png" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="latest-heading">
+                Latest funding rounds on Index.co New Window >
+            </h2>
+            <ul class="listing">
+                <li class="latest-news fund">
+                    <img class="fund-image" src="./assets/images/fund-img1.jpeg" alt="fund-image" />
+                    <div class="red">
+                        <p>Noon Academy</p>
+                    </div>
+                    <div class="funding-second-color">
+                        <h4>
+                            $13M
+                        </h4>
+                        <p>
+                            Series B
+                        </p>
+                    </div>
+                    <div >
+                        <p><i class="fa fa-tag fund-tags"></i>Education, +2</p>
+                        <p><i class="fa fa-briefcase fund-tags"></i> STV, +2</p>
 
-          <li>Item</li>
-          <li>Item</li>
-          <li>Item</li>
-          <li>Item</li>
+                        <p class="fund-line">Saudi edtech Noon Academy raises $13 million led by STV to accelerate its global expansion on MENAbytes</p>
+                    </div>
+                </li>
+                <li class="latest-news fund">
+                    <img class="fund-image" src="./assets/images/fund-image2.jpeg" alt="fund-image" />
+                    <div class="red">
+                        <p>Kalderos</p>
+                    </div>
+                    <div class="funding-second-color">
+                        <h4>
+                            $28M
+                        </h4>
+                        <p>
+                            Series B
+                        </p>
+                    </div>
+                    <div>
+                        <p><i class="fa fa-tag fund-tags"></i>Education, +2</p>
+                        <p><i class="fa fa-briefcase fund-tags"></i> STV, +2</p>
 
-        </ul>    
-      </div>
-    <div class="navbar half-white-navbar">
-      <ul class="nav-item first-menu">
+                        <p class="fund-line">Drug Discount Management Solution Company Kalderos Raises $28 Million on Pulse 2.0</p>
+                    </div>
+                </li>
+                <li class="latest-news fund">
+                    <img class="fund-image" src="./assets/images/fund-image3.jpeg" alt="fund-image" />
+                    <div class="red">
+                        <p>DRORapp</p>
+                    </div>
+                    <div class="funding-second-color">
+                        <h4>
+                            Undisclosed amount
+                        </h4>
+                        <p>
+                            Venture Capital
+                        </p>
+                    </div>
+                    <div>
+                        <p><i class="fa fa-tag fund-tags"></i>Education, +2</p>
+                        <p><i class="fa fa-briefcase fund-tags"></i> STV, +2</p>
 
-        <li>News</li>
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item</li>
+                        <p class="fund-line">Citizen safety-focussed platform DROR raises fresh funding on VCCircle</p>
+                    </div>
+                </li>
+                <li class="latest-news fund">
+                    <img class="fund-image" src="./assets/images/fund-image4.png" alt="fund-image" />
+                    <div class="red">
+                        <p>RENTUU</p>
+                    </div>
+                    <div class="funding-second-color">
+                        <h4>
+                            £1.5M
+                        </h4>
+                        <p>
+                            Venture Capital
+                        </p>
+                    </div>
+                    <div >
+                        <p><i class="fa fa-tag fund-tags"></i>Education, +2</p>
+                        <p><i class="fa fa-briefcase fund-tags"></i> STV, +2</p>
 
-      </ul>
+                        <p class="fund-line">Rentuu Raises £1.5M in Funding on FinSMEs</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-      <ul class="nav-item second-menu">
+        <section>
+            <ul class="listing news-section">
+                <li>
+                    <h2 class="latest-heading">
+                        Latest News >
+                    </h2>
+                    <img src="./assets/images/image.jpeg" alt="image1" />
+                    <div class="news-section-heading">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                    <div class="latest-news-heading">
+                        <div class="title">
+                            <p>LATEST</p>
+                            <p><a href="#">This CSS library makes it easy to design Windows XP-inspired UIs</a></p>
+                        </div>
+                        <div class="lattest-news-sub-image">
+                            <img src="./assets/images/news-section-sub-image.png" alt="news-section-sub-image.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="news-list">
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Microsoft brings Edge's hidden Surf Game to everyone
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Chrome is testing dark mode for Google Search
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Icon Rewind is a time machine for your phone’s app icons
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    YouTube now tells you to go to bed -- here's how to set it up
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Google Maps can now highlight wheelchair-accessible businesses
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="latest-heading">
+                        Latest News >
+                    </h2>
+                    <img src="./assets/images/image6.png" alt="image1" />
+                    <div class="news-section-heading">
+                        <h4>The Nuraphone ‘hearing-tuned’ headphones are a lockdown</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                    <div class="latest-news-heading">
+                        <div class="title">
+                            <p>LATEST</p>
+                            <p><a href="#">This CSS library makes it easy to design Windows XP-inspired UIs</a></p>
+                        </div>
+                        <div class="lattest-news-sub-image">
+                            <img src="./assets/images/news-section-sub-image.png" alt="news-section-sub-image.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="news-list">
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Microsoft brings Edge's hidden Surf Game to everyone
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Chrome is testing dark mode for Google Search
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Icon Rewind is a time machine for your phone’s app icons
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    YouTube now tells you to go to bed -- here's how to set it up
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Google Maps can now highlight wheelchair-accessible businesses
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="latest-heading">
+                        Latest News >
+                    </h2>
+                    <img src="./assets/images/image1.png" alt="image1" />
+                    <div class="news-section-heading">
+                        <h4>Here's how developers think Apple will handle Mac's switch from Intel to ARM</h4>
+                        <p><a href="#">Tristan Greene15</a> . 4 hours ago</p>
+                    </div>
+                    <div class="latest-news-heading">
+                        <div class="title">
+                            <p>LATEST</p>
+                            <p><a href="#">This CSS library makes it easy to design Windows XP-inspired UIs</a></p>
+                        </div>
+                        <div class="lattest-news-sub-image">
+                            <img src="./assets/images/news-section-sub-image.png" alt="news-section-sub-image.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="news-list">
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Microsoft brings Edge's hidden Surf Game to everyone
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Chrome is testing dark mode for Google Search
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Icon Rewind is a time machine for your phone’s app icons
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    YouTube now tells you to go to bed -- here's how to set it up
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Google Maps can now highlight wheelchair-accessible businesses
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="latest-heading">
+                        Latest News >
+                    </h2>
+                    <img src="./assets/images/image2.png" alt="image1" />
+                    <div class="news-section-heading">
+                        <h4>Apple wasn't told UK was developing a 'hybrid' COVID-19 app with its tech</h4>
+                        <p><a href="#">Tristan Greene15</a> . 4 hours ago</p>
+                    </div>
+                    <div class="latest-news-heading">
+                        <div class="title">
+                            <p>LATEST</p>
+                            <p><a href="#">This CSS library makes it easy to design Windows XP-inspired UIs</a></p>
+                        </div>
+                        <div class="lattest-news-sub-image">
+                            <img src="./assets/images/news-section-sub-image.png" alt="news-section-sub-image.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="news-list">
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Microsoft brings Edge's hidden Surf Game to everyone
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Chrome is testing dark mode for Google Search
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Icon Rewind is a time machine for your phone’s app icons
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    YouTube now tells you to go to bed -- here's how to set it up
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Google Maps can now highlight wheelchair-accessible businesses
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="latest-heading">
+                        Latest News >
+                    </h2>
+                    <img src="./assets/images/image3.jpeg" alt="image1" />
+                    <div class="news-section-heading">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                    <div class="latest-news-heading">
+                        <div class="title">
+                            <p>LATEST</p>
+                            <p><a href="#">This CSS library makes it easy to design Windows XP-inspired UIs</a></p>
+                        </div>
+                        <div class="lattest-news-sub-image">
+                            <img src="./assets/images/news-section-sub-image.png" alt="news-section-sub-image.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="news-list">
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Microsoft brings Edge's hidden Surf Game to everyone
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Chrome is testing dark mode for Google Search
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Icon Rewind is a time machine for your phone’s app icons
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    YouTube now tells you to go to bed -- here's how to set it up
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Google Maps can now highlight wheelchair-accessible businesses
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="latest-heading">
+                        Latest News >
+                    </h2>
+                    <img src="./assets/images/image.jpeg" alt="image1" />
+                    <div class="news-section-heading">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                    <div class="latest-news-heading">
+                        <div class="title">
+                            <p>LATEST</p>
+                            <p><a href="#">This CSS library makes it easy to design Windows XP-inspired UIs</a></p>
+                        </div>
+                        <div class="lattest-news-sub-image">
+                            <img src="./assets/images/news-section-sub-image.png" alt="news-section-sub-image.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="news-list">
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Microsoft brings Edge's hidden Surf Game to everyone
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Chrome is testing dark mode for Google Search
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Icon Rewind is a time machine for your phone’s app icons
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    YouTube now tells you to go to bed -- here's how to set it up
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Google Maps can now highlight wheelchair-accessible businesses
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="latest-heading">
+                        Latest News >
+                    </h2>
+                    <img src="./assets/images/image5.jpg" alt="image1" />
+                    <div class="news-section-heading">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                    <div class="latest-news-heading">
+                        <div class="title">
+                            <p>LATEST</p>
+                            <p><a href="#">This CSS library makes it easy to design Windows XP-inspired UIs</a></p>
+                        </div>
+                        <div class="lattest-news-sub-image">
+                            <img src="./assets/images/news-section-sub-image.png" alt="news-section-sub-image.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="news-list">
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Microsoft brings Edge's hidden Surf Game to everyone
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Chrome is testing dark mode for Google Search
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Icon Rewind is a time machine for your phone’s app icons
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    YouTube now tells you to go to bed -- here's how to set it up
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Google Maps can now highlight wheelchair-accessible businesses
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="latest-heading">
+                        Latest News >
+                    </h2>
+                    <img src="./assets/images/image7.png" alt="image1" />
+                    <div class="news-section-heading">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><a href="#">Tristan Greene15</a> . hours ago</p>
+                    </div>
+                    <div class="latest-news-heading">
+                        <div class="title">
+                            <p>LATEST</p>
+                            <p><a href="#">This CSS library makes it easy to design Windows XP-inspired UIs</a></p>
+                        </div>
+                        <div class="lattest-news-sub-image">
+                            <img src="./assets/images/news-section-sub-image.png" alt="news-section-sub-image.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="news-list">
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Microsoft brings Edge's hidden Surf Game to everyone
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Chrome is testing dark mode for Google Search
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Icon Rewind is a time machine for your phone’s app icons
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    YouTube now tells you to go to bed -- here's how to set it up
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-point">•</span>
+                                <div class="text">
+                                    Google Maps can now highlight wheelchair-accessible businesses
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-        <li><i class="fa fa-search" aria-hidden="true"></i></li>
-        <li><span>ECHOSYSTEM CONFERENCE STARTS IN</span></li>
-        <li id="demo" class="time-navbar"></li>
-        <li><button type="button">REGISTER </button></li>
+        <section>
+            <h2 class="latest-heading">
+                Latest Offers >
+            </h2>
+            <ul class="listing">
+                <li class="latest-news price-percentage">
+                    <div class="price-overlay">
+                        <p>80% OFF</p>
+                    </div>
+                    <img src="./assets/images/image.jpeg" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><s>$49.99</s> $0</p>
+                    </div>
+                </li>
+                <li class="latest-news price-percentage">
+                    <div class="price-overlay">
+                        <p>96% OFF</p>
+                    </div>
+                    <img src="./assets/images/image6.png" alt="image1" />
+                    <div class="body">
+                        <h4>The Nuraphone ‘hearing-tuned’ headphones are a lockdown</h4>
+                        <p><s>$49.99</s> $0</p>
+                    </div>
+                </li>
+                <li class="latest-news price-percentage">
+                    <div class="price-overlay">
+                        <p>96% OFF</p>
+                    </div>
+                    <img src="./assets/images/image1.png" alt="image1" />
+                    <div class="body">
+                        <h4>Here's how developers think Apple will handle Mac's switch from Intel to ARM</h4>
+                        <p><s>$49.99</s> $0</p>
+                    </div>
+                </li>
+                <li class="latest-news price-percentage">
+                    <div class="price-overlay">
+                        <p>96% OFF</p>
+                    </div>
+                    <img src="./assets/images/image2.png" alt="image1" />
+                    <div class="body">
+                        <h4>Apple wasn't told UK was developing a 'hybrid' COVID-19 app with its tech</h4>
+                        <p><s>$49.99</s> $0</p>
+                    </div>
+                </li>
+                <li class="latest-news price-percentage">
+                    <div class="price-overlay">
+                        <p>70% OFF</p>
+                    </div>
+                    <img src="./assets/images/image3.jpeg" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><s>$49.99</s> $0</p>
+                    </div>
+                </li>
+                <li class="latest-news price-percentage">
+                    <div class="price-overlay">
+                        <p>70% OFF</p>
+                    </div>
+                    <img src="./assets/images/image4.jpg" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><s>$49.99</s> $0</p>
+                    </div>
+                </li>
+                <li class="latest-news price-percentage">
+                    <div class="price-overlay">
+                        <p>70% OFF</p>
+                    </div>
+                    <img src="./assets/images/image5.jpg" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><s>$49.99</s> $0</p>
+                    </div>
+                </li>
+                <li class="latest-news price-percentage">
+                    <div class="price-overlay">
+                        <p>70% OFF</p>
+                    </div>
+                    <img src="./assets/images/image7.png" alt="image1" />
+                    <div class="body">
+                        <h4>Dangerous AI algorithms and how to recognize them</h4>
+                        <p><s>$49.99</s> $0</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-      </ul>   
-    </div>
-    <div class="tnw-conference">
-      <p>
-        <a>	Don't fall behind our tech future -  Join TNW Couch Conferences ➔	</a>
-      </p> 
-    </div>
-    </nav>
-
-  </header>
-
-  
-</body>
+        <footer>
+            <div class="fixed">
+                <img src="./assets/images/accesibility.png" alt="accesibility"/>
+            </div>
+            <div class="icon">
+             <p class="para">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                <i class="fa fa-rss" aria-hidden="true"></i>
+                <i class="fa fa-envelope"></i>
+             </p>
+             <p  class="para1">
+                 <a class="footer-list" href="a">EVENTS</a>
+                 <a class="footer-list" href="a">ABOUT</a>
+                 <a class="footer-list" href="a">ADVERTISE</a>
+                 <a class="footer-list" href="a">JOBS</a>
+                 <a class="footer-list" href="a">CONTACT</a>
+             </p>
+            </div>
+            <div class="second-section">
+                <p>© 2006–2020 The Next Web B.V. <span>Made with <b>♥</b> in Amsterdam.</span> Powered by</p>
+               </div>
+        </footer>
+    </body>
 </html>
