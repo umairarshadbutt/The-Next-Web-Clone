@@ -248,14 +248,14 @@ body {
   .logo {
     display: block;
     width: 100px;
-    height: 52px;
+    height: 64px;
     float: left;
   }
 
   .half-white-navbar {
     display: block;
     height: 52px;
-    margin-left: 80px;
+    margin-left: 100px;
   }
 
   div.black-nav {
@@ -275,7 +275,7 @@ body {
 
   .half-white-navbar .first-menu {
     background-color: #fff;
-    height: 48px;
+    height: 32px;
     display: flex;
     align-items: center;
   }
