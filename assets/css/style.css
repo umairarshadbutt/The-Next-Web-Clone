@@ -209,6 +209,9 @@ body {
     height: 52px;
     float: left;
   }
+  .logo-img{
+    display: none;
+  }
 
   .half-white-navbar,
   .black-nav {
@@ -239,6 +242,9 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .logo-img{
+    display: none;
+  }
   .logo {
     display: block;
     width: 100px;
