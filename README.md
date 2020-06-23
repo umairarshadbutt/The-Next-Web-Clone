@@ -16,7 +16,7 @@ This project is a replica of the The next clone home page. It has a different ne
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/the-next-web-clone/048c8fd1c41e7b2200087d0cbe3c3ed7cb80a903/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/the-next-web-clone/80feaaef74cdb3e9351ccfd2c9475843fe71dcf9/index.html)
 
 
 ## Getting Started
